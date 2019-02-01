@@ -1,0 +1,39 @@
+<div class="row">
+  <div class="col-sm">
+    <img id="besties" src="/assets/images/besties.png" width="600" alt="besties">
+  </div>
+  <div class="col-sm">
+    <form (submit)="onRegister()">
+      <br>
+      <h2 class="shadow1">Register</h2>
+      <div class="form-group">
+        <label for="first_name">First Name:</label>
+        <input type="text" name="newUser.first_name" [(ngModel)]="newUser.first_name" class="form-control" id="first_name"
+          placeholder="Enter first name">
+      </div>
+      <div class="form-group">
+        <label for="last_name">Last Name</label>
+        <input type="text" name="newUser.last_name" [(ngModel)]="newUser.last_name" class="form-control" id="last_name"
+          placeholder="Enter last name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email address</label>
+        <input type="email" name="newUser.email" [(ngModel)]="newUser.email" class="form-control" id="email"
+          aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" name="newUser.password" [(ngModel)]="newUser.password" class="form-control" id="password"
+          placeholder="Enter Password">
+      </div>
+      <div class="form-group">
+        <label for="password_confirm">Confirm Password </label>
+        <input type="password" name="newUser.password_confirm" [(ngModel)]="newUser.password_confirm" class="form-control"
+          id="password_confirm" placeholder="Confirm Password">
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+</div>
+<br><br>

@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background-color:#f7c2d2;
+}
+.container{
+    white-space: normal;
+    color: white;
+    width: fit-content;
+}
+ul .navbar-nav{
+    display: inline-block;
+}
+ .nav-link{
+     color:#f7c2d2;
+ }

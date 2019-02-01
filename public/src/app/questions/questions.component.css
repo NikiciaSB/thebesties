@@ -1,0 +1,23 @@
+*{
+    text-align: left;
+}
+.orange{
+    color:#ff8757;
+    text-shadow: 2px 2px 5px #ffe7ee;
+}
+.black{
+    color:white;
+    text-shadow: 2px 2px 5px #eb2f67;;
+}
+.black1{
+    color:white;
+    text-shadow: 1px 1px 1px #af234d;
+}
+label{
+    font-size:25px;
+    color:black;
+    text-shadow: 1px 1px 1px #ff7ca4;
+}
+button{
+    background-color: #ff8757;
+}

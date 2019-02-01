@@ -1,0 +1,42 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="/">
+    <img src="./assets/images/besties.png" width="30" height="30" class="d-inline-block align-top" alt="logo">
+    Besties
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link sign" [routerLink]="['/questions']">Questions</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link sign" [routerLink]="['/profile']">Profile</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link sign" [routerLink]="['/chat']">Chat</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/about']"> Who We Are</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/faq']">FAQ</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/login']">Login</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link sign" [routerLink]="['/register']">Sign Up</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div>
+  <div class="row" style="text-align:center">
+    <div class="container">
+      <router-outlet></router-outlet>
+    </div>
+  </div>

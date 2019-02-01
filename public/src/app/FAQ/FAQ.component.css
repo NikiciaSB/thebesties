@@ -1,0 +1,17 @@
+.story{
+    color:white;
+}
+
+.col-sm{
+    background-color:#ff8757;
+}
+.shadow1{
+    text-shadow: 2px 2px 5px #e01251;
+}
+
+.shadow2{
+    text-shadow: 2px 2px 5px #9a173f;
+}
+p{
+    color:black;
+}
